@@ -19,16 +19,7 @@ clear; clc; close all;
 
 
 inFiles = {
-    'STL25-1B-1F-W-L 18-28 (0 to 10.2 cm)_QC.csv',
-    'STL25-1B-1F-W-3_54-60 (0 to 6.7 cm)_QC.csv',
-    'STL25-1B-1F-W-L 0-8 (0 to 12.3 cm)_QC copy.csv',
-    'STL25-1B-1F-W-L 34.5-44.5 (0 to 10.5 cm)_QC.csv',
-    'STL25-1B-1F-W-L_8-18 (5.0 to 10.0 cm)_QC.csv',
-    'STL25-1B-1F-W-M_46-54 (0 to 8.0 cm)_QC.csv',
-    'STL25-1B-1F-W-R 5-17 (0 to 12.0 cm)_QC.csv',
-    'STL25-1B-1F-W-R 25-33.4 (0 to 8.7 cm)_QC.csv',
-    'STL25-1B-1F-W-R 37.5-47.5 (0 to 10.0 cm)_QC.csv',
-    'STL25-1B-1F-W-R_47.5-59.5 (0 to 12.3 cm)_QC.csv'
+    'FILENAME.csv'
     
 };
 
@@ -43,7 +34,7 @@ timeCol = 't_hr';                   % hours
 posCol  = 'position_mm_';          % mm 
 
 
-elements = {'Si','Ca','Fe','Ti','Mn','K','S','Al','Mg','Sr','Zr','Ba','Ni','cps','P','Cl','Ar','V','Cu','Ge','Se','Y','Sb','Cs','La','Ce','Pr','CrInc','CrCoh'};
+elements = {'ELEMENTS TO BE CORRECTED};
 
 % QC detection + selection tolerances (mm)
 clusterTol_mm = 1.5;   
