@@ -25,7 +25,7 @@ inFiles = {
 
 
 
-outSuffix = '_Corr_BilinearPiecewise_260216';     
+outSuffix = '_Corr_BilinearPiecewise';     
 outFolder = '';                     
 
 % Column names
